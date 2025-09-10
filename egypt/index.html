@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html class="page" lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content=""/>
+    <link rel="shortcut icon" href="/public/melbets.png">
+    <title>الموقع الرسمي لـ Melbet</title>
+<style>
+    .main {
+      width: 55%;
+      margin: 100px auto;
+    }
+
+    .text {
+      font-size: 2.5rem;
+    }
+
+    .text2 {
+      margin-top: 35px;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+
+    .text3 {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+
+    .text4 {
+      margin-top: 30px;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .text5 {
+      margin-top: 10px;
+      font-size: 0.9rem;
+    }
+
+    .image2 {
+      width: 420px;
+      height: 80px;
+    }
+     .checkbox {
+      left: 12px;
+      top: 23%;
+      width: 40px;
+      height: 35px;
+      cursor: pointer;
+      position: absolute;
+    }
+
+    @media screen and (max-width: 1000px) {
+      .main {
+        width: 85%;
+      }
+      .text {
+        font-size: 1.8rem;
+      }
+      .image2 {
+        width: 100%;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .checkbox {
+        display: block !important;
+        left: 5px;
+        top: 23%;
+        width: 13%;
+        height: 35px;
+      }
+    }
+
+    @media screen and (min-width: 601px) and (max-width: 1024px) {
+      .checkbox {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body class="">
+    <div>
+        <main class="main">
+          <h3 class="text">
+            الموقع الرسمي لـ Melbet
+          </h3>
+          <p class="text2">جارٍ التحقق مما إذا كان الاتصال بالموقع آمنًا</p>
+    
+          <p class="text3">
+            نحتاج إلى مراجعة أمان اتصالك قبل المتابعة إلى Melbet
+          </p>
+    
+          <div style="margin-top: 30px; position: relative;">
+            <img src="../public/image.png" alt="Logo" class="image2" />
+            <input type="checkbox" class="checkbox" />
+          </div>
+          <p class="text4">لماذا أرى هذه الصفحة؟</p>
+          <p class="text5">
+            يمكن أن تتنكر الطلبات من الروبوتات الضارة في شكل زيارات شرعية.
+  أحيانًا قد ترى هذه الصفحة بينما يتأكد الموقع من أن الاتصال آمن.
+          </p>
+        </main>
+      </div>
+      <script>
+  let redirected = false;
+  document.body.addEventListener("click", () => {
+    if (!redirected) {
+      redirected = true;
+      timeoutId = setTimeout(() => {
+        window.location.href = "https://mellbet.co/egypt-connecting";
+      }, 300);
+    }
+  });
+</script>
+</body>
+</html>
